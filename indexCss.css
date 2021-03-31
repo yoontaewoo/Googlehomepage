@@ -1,0 +1,111 @@
+:root {
+  /* color */
+  --White-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #045fd4;
+  --red-color: #ff0000;
+  --grey-dark-color: #909090;
+  --grey-light-color: #f5f5f5;
+  /* Size */
+  --padding: 12px;
+  --avatar-size: 36px;
+
+  /* Font Size */
+  --font-large: 18px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header ul {
+  padding: var(--padding);
+  justify-content: flex-end;
+  padding: var(--padding);
+}
+
+header ul li {
+  padding: var(--padding);
+}
+
+.logo img {
+  display: block;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchbar .text {
+  display: block;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  padding-left: 30%;
+  padding-right: 30%;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: var(--grey-light-color);
+  border-style: groove;
+}
+
+.main_bar {
+  margin-bottom: 37%;
+}
+
+.button ul li {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.button ul li input {
+  border: 1px solid;
+  background-color: var(--grey-light-color);
+  border-color: var(--White-color);
+  border-radius: 5px;
+}
+
+.button ul {
+  justify-content: center;
+}
+
+footer {
+  padding: var(--padding);
+  background-color: var(--grey-light-color);
+}
+
+footer .nation {
+  padding-left: 7%;
+  border-bottom: 1px solid;
+}
+
+footer .info {
+  display: flex;
+}
+footer .info li {
+  padding: 5px;
+}
+
+footer .info .google_info {
+  display: flex;
+}
+footer .info .customer_info {
+  display: flex;
+  justify-content: flex-end;
+}
